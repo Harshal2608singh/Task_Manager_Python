@@ -1,0 +1,67 @@
+
+# Task Manager API Application 
+
+A production-style Task Management REST API built using Django. This project demonstrates authentication, role-based access control, task assignment, and dashboard analytics.
+
+
+## Features
+
+- Authentication 
+- Register user
+- Login user
+- JWT access + refresh tokens
+- Protected routes
+## Task Management
+- Create task
+- Read tasks
+- Update tasks
+- Delete tasks
+## Assignment System
+- Assign tasks to users
+- Admin can assign any task
+- Normal users can only manage their own tasks
+## Advanced Features
+- Role-based access
+- Pagination
+- Search/filter tasks
+- API endpoints
+- TDD Requirement
+
+
+
+
+## Tech Stack
+
+
+- Python
+- Django
+- Django REST Framework
+- JWT
+- SQLite
+- REST API
+- Unit Testing
+- Git
+- GitHub
+- Postman
+
+## Project Structure
+```
+📦 Task Manager_Python
+└─ task_management_api
+   ├─ task_management_api
+   │  ├─ __init__.py
+   │  ├─ settings.py
+   │  ├─ urls.py
+   │  └─ wsgi.py
+   ├─ Task
+   │  ├─ apps.py   
+tasks.py
+   │  ├─ models.py
+   │  ├─ permissions.py
+   │  ├─ roles.py
+   │  ├─ serializers.py
+   │  ├─ tests.py
+   │  ├─ urls.py
+   │  └─ views.py
+   └─ requirements.txt
+```
